@@ -6,6 +6,7 @@ import Digital from "./componets/Digital";
 import Studies from './componets/studies';
 import Marketing from './componets/Marketing';
 import Services from './componets/Services';
+import WhyUs from './componets/WhyUs';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Studies />
       <Marketing />
       <Services />
+      <WhyUs />
     </div>
   )
 }
