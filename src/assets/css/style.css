@@ -10,7 +10,9 @@ body {
   width: 100%;
   height: 100vh;
 }
-
+.w-fill-available {
+  width: -webkit-fill-available;
+}
 nav a {
   font-size: 18px;
 }
@@ -197,5 +199,55 @@ nav a {
   .btn-action {
     padding: 12px 30px;
     margin-top: 25px;
+  }
+}
+
+/* Why Us */
+
+.get-started {
+  padding: 12px 30px;
+}
+/* Pricing */
+
+.package {
+  .name {
+    width: 40px;
+    background: #e7b938;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+
+    p {
+      transform: rotate(90deg);
+    }
+  }
+  .head {
+    display: flex;
+    width: -webkit-fill-available;
+    align-items: flex-end;
+    height: 112px;
+    margin-top: 20px;
+  }
+  .detail {
+    margin-top: 18px;
+    height: 100%;
+  }
+  .btn-started {
+    border: 1px solid;
+    padding: 10px 70px;
+    margin-right: 41px;
+  }
+}
+.footer {
+  background: url("../images/10039.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  .footer-line {
+    height: 2px;
+    background: #343635;
   }
 }
